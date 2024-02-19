@@ -36,11 +36,11 @@ for (const seat of seats) {
         const availableS = parseInt(seatNum) - 1;
         availableSeat.innerText = availableS;
       } else {
-        alert('Sorry, you have already booked this seat.');
+        alert('This seat is already booked. Please select another.');
       }
     } else {
       alert(
-        'You cannot select more than four seats at a time. You have already selected four seats.'
+        'Selection of more than 4 seat is allowed at a time. You already booked 4 seat. '
       );
       removeEventListener(seat);
     }
@@ -93,7 +93,7 @@ function coupon() {
     const setVlu = set.innerText;
     arr.push(setVlu);
   }
-  if (arr.length <= 4) {
+  if (arr.length === 4) {
     const inp = document.getElementById('couponInp');
     inp.disabled = false;
     inp.classList.add('bg-white');
