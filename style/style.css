@@ -61,3 +61,22 @@
     width: 65px;
   }
 }
+@media (max-width: 400px) {
+  .seat {
+    width: 60px;
+  }
+  .policy {
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 370px) {
+  .hello {
+    display: none;
+  }
+
+  .seat {
+    width: 55px;
+  }
+}
