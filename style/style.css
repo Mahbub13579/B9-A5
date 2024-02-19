@@ -21,9 +21,43 @@
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
-/* .secOne {
-  background-image: url('../images/section\ one\ 1.svg');
+@media (max-width: 640px) {
+  .banner div p {
+    padding: 10px 0 10px;
+  }
+  .seatprent {
+    gap: 30px;
+  }
+  .seat {
+    width: 97px;
+  }
 }
-.secTwo {
-  background-image: url('../images/section\ one\ 2.svg');
-} */
+@media (max-width: 600px) {
+  .seatprent {
+    gap: 22px;
+  }
+  .seat {
+    width: 90px;
+  }
+}
+@media (max-width: 550px) {
+  .seatprent {
+    gap: 18px;
+  }
+  .seat {
+    width: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .seatprent {
+    gap: 12px;
+  }
+  .seat {
+    width: 75px;
+  }
+}
+@media (max-width: 450px) {
+  .seat {
+    width: 65px;
+  }
+}
