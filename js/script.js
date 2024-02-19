@@ -93,7 +93,7 @@ function coupon() {
     const setVlu = set.innerText;
     arr.push(setVlu);
   }
-  if (arr.length === 4) {
+  if (arr.length <= 4) {
     const inp = document.getElementById('couponInp');
     inp.disabled = false;
     inp.classList.add('bg-white');
