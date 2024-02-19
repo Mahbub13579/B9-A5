@@ -1,4 +1,4 @@
-/* Font link  */
+/* adding font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .raleway {
@@ -21,9 +21,9 @@
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
-.secOne {
+/* .secOne {
   background-image: url('../images/section\ one\ 1.svg');
 }
 .secTwo {
   background-image: url('../images/section\ one\ 2.svg');
-}
+} */
